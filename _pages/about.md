@@ -15,11 +15,28 @@ Hi there!👋
 🗎 My resume can be found here.
 
 
+# 🎓 Education
+=====
+zuel
+bit
+
 
 ## 🔥 News
 ======
 dddd
 
+
+
+# 🎖 Honors and Awards
+======
+dddd
+
+
+
+misc
+=====
+杂项
+The books I am reading or have recently read:
 
 
 
