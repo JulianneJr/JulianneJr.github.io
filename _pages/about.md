@@ -13,12 +13,12 @@ redirect_from:
 ======
 Hi there!👋
 
-🗎 My resume can be found here.
+
 🗎 My resume can be found [here](/files/paper1.pdf).
 
 
-# 🎓 Education
-=====
+## 🎓 Education
+
 - **B.Eng. in Computer Science and Technology**
   *Sept. 2021 – June 2025* | Zhongnan University of Economics and Law, Wuhan
 
@@ -49,14 +49,12 @@ dddd
 
 
 
-# 🎖 Honors and Awards
-======
+## 🎖 Honors and Awards
 dddd
 
 
 
-misc
-=====
+## misc
 杂项
 The books I am reading or have recently read:
 
