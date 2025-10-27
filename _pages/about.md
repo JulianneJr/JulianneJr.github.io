@@ -11,7 +11,23 @@ redirect_from:
 
 💫About me
 ======
-Hi there!👋
+Welcome to **Yingying Zhu's Homepage**! 👋
+
+I am a **First-Year Master's Student** at the School of Computer Science, **Beijing Institute of Technology (BIT)**, currently supervised by [XXX].
+
+I completed my Bachelor's degree at the School of Information and Safety Engineering, *Zhongnan University of Economics and Law (ZUEL)*.
+
+My primary research interests span:
+
+* **Drug Synergism** (药物协同作用)
+* **Natural Language Processing** (**NLP**)
+* **Computer Vision** (**CV**)
+
+I am passionately focused on pushing the frontiers of Computer Vision and Artificial Intelligence. I am *always enthusiastic* about exploring novel concepts and actively seeking opportunities for *collaboration*.
+
+**Contact Me:**
+
+📧 Feel free to reach out via email: **Julianne_M@163.com**
 
 
 🗎 My resume can be found [here](/files/paper1.pdf).
