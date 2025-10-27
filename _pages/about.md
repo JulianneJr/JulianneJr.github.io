@@ -12,7 +12,11 @@ redirect_from:
 ======
 Hi there!👋
 
-🔥 News
+🗎 My resume can be found here.
+
+
+
+## 🔥 News {: #news}
 ======
 dddd
 
