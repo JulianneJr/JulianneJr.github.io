@@ -19,11 +19,15 @@ Hi there!👋
 
 ## 🎓 Education
 
+<div style="font-size: 0.9em;">
+
 - **B.Eng. in Computer Science and Technology**
   *Sept. 2021 – June 2025* | Zhongnan University of Economics and Law, Wuhan
 
 - **M.Eng. in Computer Technology**
   *Sept. 2025 – June 2028* | Beijing Institute of Technology, Beijing
+  
+</div>
 
 sec:
 
