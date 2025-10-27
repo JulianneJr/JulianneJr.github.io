@@ -2,6 +2,7 @@
 permalink: /
 title: "Yingying Zhu - Homepage"
 author_profile: true
+show_page_title: false
 redirect_from: 
   - /about/
   - /about.html
@@ -13,12 +14,33 @@ redirect_from:
 Hi there!👋
 
 🗎 My resume can be found here.
+🗎 My resume can be found [here](/files/paper1.pdf).
 
 
 # 🎓 Education
 =====
-zuel
-bit
+- **B.Eng. in Computer Science and Technology**
+  *Sept. 2021 – June 2025* | Zhongnan University of Economics and Law, Wuhan
+
+- **M.Eng. in Computer Technology**
+  *Sept. 2025 – June 2028* | Beijing Institute of Technology, Beijing
+
+sec:
+
+- **Computer Science and Technology (B.Eng.)** | Zhongnan University of Economics and Law, Wuhan
+  *Sept. 2021 – June 2025*
+
+- **Computer Technology (M.Eng.)** | Beijing Institute of Technology, Beijing
+  *Sept. 2025 – June 2028*
+
+
+eho:
+
+- **Computer Science and Technology (B.Eng.)** | Zhongnan University of Economics and Law, Wuhan
+  *Sept. 2021 – June 2025*
+
+- **Computer Technology (M.Eng.)** | Beijing Institute of Technology, Beijing
+  *Sept. 2025 – June 2028*
 
 
 ## 🔥 News
