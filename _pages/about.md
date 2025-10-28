@@ -35,52 +35,13 @@ I am passionately focused on pushing the frontiers of Computer Vision and Artifi
 
 ## 🎓 Education
 
-<font size="5">这是大号字体</font>
-
-<font size="3">这是默认字体</font>
-
-<font size="1">
-- **B.Eng. in Computer Science and Technology**
-  *Sept. 2021 – June 2025* | Zhongnan University of Economics and Law, Wuhan
-
 - **M.Eng. in Computer Technology**
-  *Sept. 2025 – June 2028* | Beijing Institute of Technology, Beijing
-</font>
 
-<font size="1">
-
-- **B.Eng. in Computer Science and Technology**
-  *Sept. 2021 – June 2025* | Zhongnan University of Economics and Law, Wuhan
-
-- **M.Eng. in Computer Technology**
   *Sept. 2025 – June 2028* | Beijing Institute of Technology, Beijing
   
-</font>
-
 - **B.Eng. in Computer Science and Technology**
+
   *Sept. 2021 – June 2025* | Zhongnan University of Economics and Law, Wuhan
-
-- **M.Eng. in Computer Technology**
-  *Sept. 2025 – June 2028* | Beijing Institute of Technology, Beijing
-  
-
-
-sec:
-
-- **Computer Science and Technology (B.Eng.)** | Zhongnan University of Economics and Law, Wuhan
-  *Sept. 2021 – June 2025*
-
-- **Computer Technology (M.Eng.)** | Beijing Institute of Technology, Beijing
-  *Sept. 2025 – June 2028*
-
-
-eho:
-
-- **Computer Science and Technology (B.Eng.)** | Zhongnan University of Economics and Law, Wuhan
-  *Sept. 2021 – June 2025*
-
-- **Computer Technology (M.Eng.)** | Beijing Institute of Technology, Beijing
-  *Sept. 2025 – June 2028*
 
 
 ## 🔥 News
