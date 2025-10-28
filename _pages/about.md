@@ -82,10 +82,27 @@ dddd -->
 
 
 
-## misc
-杂项
-The books I am reading or have recently read:
 
+## 🧩 Miscellaneous
+
+### Skills
+
+- **Programming/Tools:** Python, SQL, Tableau, Java, VScode, Jupyter, AutoDL, Xmind, etc.
+
+### Certificates
+
+- CET-6 (College English Test Band 6)
+- Alibaba Cloud ECS Certificate
+- Certificate of Skills in House Listing-Based Profile Analysis
+- UNICEF Aid Certificate
+
+### Relevant Self-Study
+
+- *Lean Analytics*
+- *Python Machine Learning* (In-Depth and Simplified)
+- *Sense of Participation*
+- *Theory U: Leading from the Future as It Emerges*
+- ...
 
 
 
