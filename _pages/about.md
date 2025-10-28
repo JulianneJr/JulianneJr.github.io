@@ -73,15 +73,6 @@ dddd -->
 
 ## 🛠️ Research Experience
 
-### AI Conversation System Data Construction and Optimization
-**Period:** May 2025 – Aug 2025 | **Role:** AI Training Data Engineer
-
-* **Key Achievement:** Led the design of training data incorporating nested business loops and multi-turn dialogue state awareness. Ranked first among an 11-person team with 9 high-quality data outputs, setting the team's benchmark.
-* **Data Construction:** Independently built a large-scale dataset with 958 dialogue nodes, applying Turn/FAQ/Step-aware labeling and Loop A-B metadata tags to enhance the model's comprehension of complex logic.
-* **Optimization:** Improved model generation quality and tool-calling accuracy by controlling data construction via response ranking and Function-call methods.
-* **Migration:** Spearheaded the data task migration and Prompt Engineering from Indonesian to English, ensuring accurate intent recognition in cross-lingual scenarios.
-
----
 
 ### MFVim: Enhanced Privacy-Preserving VIM-Based Medical Image Classifier
 **Period:** Mar 2024 – Jul 2025 | **Role:** Co-First Author
