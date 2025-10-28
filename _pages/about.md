@@ -58,8 +58,8 @@ dddd -->
 * **Migration & Prompt Engineering:** Spearheaded the data task migration and **Prompt Engineering** from Indonesian to English, ensuring accurate intent recognition in cross-lingual scenarios.
 
 
-## 🛠️ Research Experience
 
+## 📝 Research Experience
 
 ### MFVim: Enhanced Privacy-Preserving VIM-Based Medical Image Classifier
 **Period:** Mar 2024 – Jul 2025 | **Role:** Co-First Author
