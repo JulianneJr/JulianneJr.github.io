@@ -91,7 +91,7 @@ dddd -->
 
 ### Certificates
 
-- CET-6 (College English Test Band 6)
+- CET-6
 - Alibaba Cloud ECS Certificate
 - Certificate of Skills in House Listing-Based Profile Analysis
 - UNICEF Aid Certificate
