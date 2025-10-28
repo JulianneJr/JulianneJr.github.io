@@ -34,11 +34,11 @@ main:
     data_target: #development-projects # 存储实际锚点
 
   - title: "Development2"
-    url: /                               # 点击后主页地址不变
+    url: /#-development-projects                               # 点击后主页地址不变
     data_anchor: "#-development-projects" # 新增自定义属性，用于JS定位
 
   - title: "Development3"
-    url: /                               # 点击后主页地址不变
+    url: /#-development-projects                               # 点击后主页地址不变
     data_target: #-development-projects # 新增自定义属性，用于JS定位
 
 
