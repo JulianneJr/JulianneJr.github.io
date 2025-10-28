@@ -29,18 +29,6 @@ main:
   - title: "Development"
     url: /#-development-projects
 
-  - title: "Development1"
-    url: /development-projects
-    data_target: #development-projects # 存储实际锚点
-
-  - title: "Development2"
-    url: /#-development-projects                               # 点击后主页地址不变
-    data_anchor: "#-development-projects" # 新增自定义属性，用于JS定位
-
-  - title: "Development3"
-    url: /#-development-projects                               # 点击后主页地址不变
-    data_target: #-development-projects # 新增自定义属性，用于JS定位
-
 
   - title: "Honors and Awards"
     url: /#-honors-and-awards
