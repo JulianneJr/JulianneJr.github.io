@@ -60,25 +60,25 @@ dddd -->
 ## 🎖 Honors and Awards
 
 - **2024**
-    * 第十七届全国大学生信息安全竞赛信息安全作品赛，国家级优秀奖
-    * 中国大学生创新大赛，省级银奖
-    * 大学生创新创业训练计划创业组，国家级立项
-    * 大学生创新创业训练计划创新组，省级立项
-    * 中国大学生计算机设计大赛人工智能实践赛，省赛银奖
-    * 软件著作权（LawgiCian——“智”动化合同审查服务平台）
-    * 美国大学生数学建模竞赛，二等奖
+    * National Excellent Award, The 17th National College Students Information Security Competition Security Works
+    * Provincial Silver Award, China College Students Innovation Competition
+    * National Project Approval, College Students Innovation and Entrepreneurship Training Program Venture Group
+    * Provincial Project Approval, College Students Innovation and Entrepreneurship Training Program Innovation Group
+    * Provincial Silver Award, China College Students Computer Design Competition AI Practice
+    * Software Copyright LawgiCian - Intelligent Contract Review Service Platform
+    * Meritorious Winner Second Prize, Mathematical Contest In Modeling MCM
 
 - **2023**
-    * SODA开放数据创新应用大赛，复赛百强
-    * 第三十六届“博文杯”大学生百项实证创新基金项目，成功结项
-    * 百度松果青英班内训赛暨百度之星选拔赛，优秀奖
-    * 获“院级优秀学生干部”，一等优秀奖学金，优秀学生
+    * Top 100 in the Finals, SODA Open Data Innovation Application Competition
+    * Successful Project Completion, The 36th "Bowen Cup" College Students Innovation Fund Project
+    * Excellent Award, Baidu Songguo Qingying Class Internal Training Competition and Baidu Star Selection
+    * Outstanding Student Cadre College Level, First-Class Scholarship, Outstanding Student
 
 - **2022**
-    * 获“校级优秀共青团员”
+    * Outstanding Communist Youth League Member School Level
 
 - **2021**
-    * 获军训“优秀学员”
+    * Excellent Trainee Military Training
 
 
 
