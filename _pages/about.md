@@ -15,7 +15,7 @@ Welcome to **Yingying Zhu's Homepage**! 👋
 
 I am a **First-Year Master's Student** at the School of Computer Science, **Beijing Institute of Technology (BIT)**, currently supervised by [XXX].
 
-I completed my Bachelor's degree at the School of Information and Safety Engineering, *Zhongnan University of Economics and Law (ZUEL)*.
+I completed my Bachelor's degree at the School of Information and Safety Engineering, **Zhongnan University of Economics and Law (ZUEL)**.
 
 My primary research interests span:
 
@@ -30,7 +30,7 @@ I am passionately focused on pushing the frontiers of Artificial Intelligence. I
 📧 Feel free to reach out via email: [Julianne_M@163.com](mailto:Julianne_M@163.com)
 
 
-🗎 My resume can be found [here](/files/paper1.pdf).
+ 🗎  My resume can be found [here](/files/paper1.pdf).
 
 
 ## 🎓 Education
