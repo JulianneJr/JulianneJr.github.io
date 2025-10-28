@@ -21,11 +21,10 @@ main:
   - title: "Work"
     url: /#-work-experience
 
-  - title: "Res"
-    url: /#-research-experience
 
   - title: "Research"
     url: /#-research-experience
+
 
   - title: "Development"
     url: /#-development-projects
@@ -41,6 +40,7 @@ main:
 
   - title: "Miscellaneous"
     url: /#-miscellaneous
+
 
   - title: "CV"
     url: /files/paper1.pdf
