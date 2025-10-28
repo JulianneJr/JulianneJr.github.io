@@ -18,13 +18,13 @@ main:
   # - title: "news"
   #   url: /#-news
 
-  - title: "Work Experience"
+  - title: "Work"
     url: /#-work-experience
 
-  - title: "Research Experience"
+  - title: "Research"
     url: /#-research-experience
 
-  - title: "Development Projects"
+  - title: "Development"
     url: /#-development-projects
 
 
