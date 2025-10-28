@@ -103,14 +103,14 @@ dddd -->
 
 ---
 
-### Online Appointment System (Hospital/Clinic)
-**Period:** Nov 2022 – Jan 2023
+### Online Appointment System (Hospital)
+**Period:** Nov 2022 – Jan 2023 | **Role:** Personal Full-Stack Developer
 
 * **Project Description:** Designed and implemented an online registration and appointment system based on the MVC pattern, supporting three user roles: patient, doctor, and administrator.
 * **Core Features:** Covers user registration/login, appointment management, department maintenance, email notifications, report export, and integration with Alipay Sandbox for online payment.
 * **Technical Stack:** Servlet, JSP, JDBC, MyBatis, MySQL, JavaMail, Apache POI, and Alipay Sandbox Payment.
 * **Project Highlights:**
-    * Implemented identity verification using Session and Interceptor mechanisms.
+    * Implemented identity verification using Session mechanisms.
     * Utilized MyBatis to optimize data operation and interaction efficiency.
     * Developed the front-end interface with CSS/JS to achieve dynamic interaction.
 
