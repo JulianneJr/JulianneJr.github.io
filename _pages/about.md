@@ -13,7 +13,7 @@ redirect_from:
 ======
 Welcome to **Yingying Zhu's Homepage**! 👋
 
-I am a **First-Year Master's Student** at the School of Computer Science, **Beijing Institute of Technology (BIT)**, currently supervised by [XXX].
+I am a **First-Year Master's Student** at the School of Computer Science, **Beijing Institute of Technology (BIT)**, currently supervised by Dr. [Ren Qi](http://lab.malab.cn/~qiren/).
 
 I completed my Bachelor's degree at the School of Information and Safety Engineering, **Zhongnan University of Economics and Law (ZUEL)**.
 
