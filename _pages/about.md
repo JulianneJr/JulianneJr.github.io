@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yingying Zhu - Homepage"
+title: ""
 author_profile: true
 show_page_title: false
 redirect_from: 
