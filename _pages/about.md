@@ -30,7 +30,7 @@ I am passionately focused on pushing the frontiers of Artificial Intelligence. I
 📧 Feel free to reach out via email: [Julianne_M@163.com](mailto:Julianne_M@163.com)
 
 
- 🗎  My resume can be found [here](/files/paper1.pdf).
+ 🗎  My resume can be found [here](/files/cv.pdf).
 
 
 ## 🎓 Education
