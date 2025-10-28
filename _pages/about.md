@@ -42,17 +42,13 @@ I am passionately focused on pushing the frontiers of Artificial Intelligence. I
   *Sept. 2021 – June 2025* | Zhongnan University of Economics and Law, Wuhan  
 
 
-- **M.Eng. in Computer Technology** <br>
-  *Sept. 2025 – June 2028* | Beijing Institute of Technology, Beijing
+- 09.2025 – 06.2028 | **M.Eng. in Computer Technology** | Beijing Institute of Technology, Beijing
+- 09.2021 – 06.2025 | **B.Eng. in Computer Science and Technology** | Zhongnan University of Economics and Law, Wuhan
+
 
 - **M.Eng. in Computer Technology** \
   *Sept. 2025 – June 2028* | Beijing Institute of Technology, Beijing
 
-- **M.Eng. in Computer Technology**<br>
-  *Sept. 2025 – June 2028* | Beijing Institute of Technology, Beijing
-
-- **M.Eng. in Computer Technology**\
-  *Sept. 2025 – June 2028* | Beijing Institute of Technology, Beijing
 
 
 
