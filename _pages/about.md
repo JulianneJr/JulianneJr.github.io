@@ -35,7 +35,8 @@ redirect_from:
 
 
 
-<div id="en-content" markdown="1">
+<div id="en-content" style="display: block;" markdown="1">
+
 
 💫About me
 ======
@@ -461,15 +462,16 @@ I am passionately focused on pushing the frontiers of Artificial Intelligence. I
     var en = document.getElementById("en-content");
     var zh = document.getElementById("zh-content");
     var btn = document.getElementById("lang-toggle");
-  
-    if (en.style.display === "none") {
-      en.style.display = "block";
-      zh.style.display = "none";
-      btn.innerHTML = "中";  // 切换回英文内容时，按钮显示“中”
-    } else {
+    
+    // 使用更稳健的逻辑：只要英文区没被隐藏，点击就切换到中文
+    if (en.style.display !== "none") {
       en.style.display = "none";
       zh.style.display = "block";
-      btn.innerHTML = "EN";  // 切换到中文内容时，按钮显示“EN”
+      btn.innerHTML = "EN";  // 此时显示中文，按钮提示切换到 EN
+    } else {
+      en.style.display = "block";
+      zh.style.display = "none";
+      btn.innerHTML = "中";   // 此时显示英文，按钮提示切换到 中文
     }
   }
 </script>
