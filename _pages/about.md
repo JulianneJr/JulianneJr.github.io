@@ -8,11 +8,32 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+  .lang-btn {
+    background-color: transparent;
+    color: #666;
+    border: 2px solid #ddd;
+    padding: 4px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  .lang-btn:hover {
+    border-color: #24292e;
+    color: #24292e;
+  }
+</style>
+
 <div style="text-align: right; margin-bottom: 20px;">
-  <button id="lang-toggle" onclick="toggleLanguage()" style="background: #24292e; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; font-family: inherit;">
-    🌐 切换至中文 (ZH)
+  <button id="lang-toggle" class="lang-btn" onclick="toggleLanguage()">
+    中
   </button>
 </div>
+
+
 
 <div id="en-content" markdown="1">
 
@@ -26,11 +47,12 @@ I completed my Bachelor's degree at the School of Information and Safety Enginee
 
 My primary research interests span:
 
+* **Large Language Models (LLMs) & AI Agents**
 * **Drug-Drug Synergism** (**DDS**)
 * **Natural Language Processing** (**NLP**)
 * **Computer Vision** (**CV**)
 
-I am passionately focused on pushing the frontiers of Artificial Intelligence. I am *always enthusiastic* about exploring novel concepts and actively seeking opportunities for *collaboration*.
+I am passionately focused on pushing the frontiers of Artificial Intelligence. I am always enthusiastic about exploring novel concepts and actively seeking opportunities for collaboration.
 
 **Contact Me:**
 
@@ -63,6 +85,18 @@ I am passionately focused on pushing the frontiers of Artificial Intelligence. I
 
 
 ## 📝 Research Experience
+
+### KanSynLM: Overcoming Spectral Bias in Drug Synergy Prediction via Wavelet KANs and Large Language Models
+**Period:** Dec 2025 – Present | **Role:** Core Researcher
+
+* **Core Challenge:** Addressed the "Spectral Bias" in traditional MLP-based drug synergy models and the severe prediction collapse caused by extreme class imbalance (<0.1% positive rate in a 700k dataset).
+* **Algorithmic Innovation:** * **MultWaveletKAN:** Pioneered the use of multiplicative Mexican Hat wavelets to replace traditional MLPs. Leveraging the compact support property of wavelets to accurately capture high-order non-linear chemogenomic features.
+    * **LLM Semantic Enhancement:** Shifted from traditional structural fingerprints (e.g., ECFP) to LLM-extracted deep functional semantics of drugs and cell lines, fusing them via Transformer cross-attention to enable true "Scaffold Hopping."
+    * **Residual Bias Injection:** Reframed synergy prediction as a residual learning problem using Confounding Adjustment Bias (CAB), mathematically preventing minority-class collapse without complex loss weighting.
+* **Results:** Achieved state-of-the-art performance on 6 major benchmark datasets (678,302 pairs). In extremely imbalanced tasks, F1-Score reached 0.43 and AUC-PR 0.40, outperforming current SOTA baselines (DeepDDS, MARSY) by up to 39%. Maintained a <5% performance drop in harsh zero-shot cold-start scenarios.
+
+---
+
 
 ### MFVim: Enhanced Privacy-Preserving VIM-Based Medical Image Classifier
 **Period:** Mar 2024 – Jul 2025 | **Role:** Co-First Author
@@ -126,6 +160,20 @@ I am passionately focused on pushing the frontiers of Artificial Intelligence. I
 
 
 ## 💻 Development Projects
+
+### KanSynLM Agent Server: LLM & Wavelet KANs Driven Intelligent DDS System
+**Period:** Early 2026 | **Role:** Full-Stack & AI Algorithm Developer
+
+* **Project Overview:** Independently developed and deployed a vertical-domain AI Agent web service integrating high-concurrency prediction, intent recognition, and automated literature RAG to tackle the "combinatorial explosion" in anti-cancer drug screening.
+* **Core Tech Stack:** PyTorch, LangGraph, LangChain, GLM-4 API, FastAPI, Uvicorn, Tavily.
+* **Agentic Workflow:** Built a state machine utilizing **LangGraph**. The Agent autonomously extracts drug/cell-line features from natural language, calls the underlying KanSynLM model, and triggers dynamic **RAG** when high synergy scores (>0.8) are detected, translating mathematical outputs into biologically interpretable reports.
+* **Engineering Optimization:** Implemented a `ModelBundle` global singleton pattern to keep massive PyTorch weights in memory/VRAM, avoiding Python asynchronous deadlocks and achieving millisecond-level inference response.
+* **Dual-Modal Architecture:** Supports both traditional structured data processing (high-throughput CSV batch inference) and unstructured natural language interactions (Agent Chat).
+
+---
+
+
+
 
 ### Online Education Platform
 **Period:** Feb 2023 – Apr 2023 | **Role:** Personal Full-Stack Developer
@@ -209,11 +257,12 @@ I am passionately focused on pushing the frontiers of Artificial Intelligence. I
 
 我的主要研究兴趣包括：
 
+* **大语言模型与智能体** (**LLMs & AI Agents**)
 * **药物协同作用** (**DDS**)
 * **自然语言处理** (**NLP**)
 * **计算机视觉** (**CV**)
 
-我热衷于推动人工智能的前沿发展。我*总是充满热情*地探索新概念，并积极寻找*合作*机会。
+我热衷于推动人工智能的前沿发展。我总是充满热情地探索新概念，并积极寻找合作机会。
 
 **联系我：**
 
@@ -246,6 +295,20 @@ I am passionately focused on pushing the frontiers of Artificial Intelligence. I
 
 
 ## 📝 科研经历
+
+### KanSynLM: 基于小波 KANs 与大语言模型克服药物协同预测中的频谱偏置
+**时间：** 2025年12月 – 至今 | **角色：** 核心研究员
+
+* **核心痛点与挑战：** 现有的深度学习药物协同预测模型普遍采用 MLP 作为回归头，其固有的“频谱偏置（Spectral Bias）”导致模型无法拟合高频非线性特征。同时，在近 70 万样本的真实数据集中极端的类别不平衡（阳性<0.1%）导致传统模型发生预测坍塌。
+* **算法创新：**
+    * **MultWaveletKAN 预测头：** 首次在药物协同领域引入乘法墨西哥帽小波基函数替换传统 MLP。利用小波紧支撑特性，精准捕捉高阶化学基因组非线性特征，解决频谱偏置问题。
+    * **LLM 语义增强：** 摒弃单一分子结构指纹，利用大语言模型提取药物和细胞系深层语义，通过 Transformer 交叉注意力机制进行特征融合，实现真正的“骨架跃迁（Scaffold Hopping）”。
+    * **残差偏置注入：** 引入混杂因子调整偏置（CAB），将协同预测重构为残差学习问题，从数学底层避免少数类预测坍塌。
+* **实验性能：** 在整合自 DrugComb 的 6 大基准数据集（超67万对样本）上进行验证。在极度不平衡分类任务中，KanSynLM 的 F1-Score 达 0.43，AUC-PR 达 0.40，较最强基准（DeepDDS等）提升高达 39%。在完全未见过的药物冷启动（Cold-Start）场景下，AUC-ROC 性能下降不足 5%，展现极强泛化能力。
+
+---
+
+
 
 ### MFVim: 基于VIM的增强隐私保护医学图像分类器
 **时间：** 2024年3月 – 2025年7月 | **角色：** 共一作者
@@ -309,6 +372,19 @@ I am passionately focused on pushing the frontiers of Artificial Intelligence. I
 
 
 ## 💻 开发项目
+
+### KanSynLM Agent Server: 基于大模型与 Wavelet KANs 的智能药物协同预测系统
+**时间：** 2026年初 | **角色：** AI算法与全栈开发
+
+* **项目定位：** 旨在解决抗癌药物联合疗法筛选中“组合爆炸”痛点。独立开发并部署集“高并发预测、智能意图识别、自动文献检索与分析”于一体的垂直领域 AI Agent Web 服务。
+* **核心技术栈：** PyTorch, LangGraph, LangChain, 智谱 GLM-4 API, FastAPI, Tavily。
+* **Agent 编排与 RAG：** 使用 **LangGraph** 状态机摒弃传统硬编码。Agent 具备自主“意图识别”能力，从自然语言提取特征并调用底层算法。当预测到高协同得分（>0.8）时，自主触发网络搜索工具（Tavily）进行动态 RAG，将冰冷的数学预测转化为具备生物学可解释性的专业分析报告。
+* **系统架构与性能：** 实现双模态架构，支持高吞吐量 CSV 批量预测与非结构化自然语言 Agent 对话。通过 `ModelBundle` 全局单例模式将庞大的 PyTorch 权重驻留显存/内存，打破 Python 异步死锁陷阱，实现毫秒级推理响应。
+
+---
+
+
+
 
 ### 在线教育平台
 **时间：** 2023年2月 – 2023年4月 | **角色：** 个人全栈开发
@@ -385,15 +461,15 @@ I am passionately focused on pushing the frontiers of Artificial Intelligence. I
     var en = document.getElementById("en-content");
     var zh = document.getElementById("zh-content");
     var btn = document.getElementById("lang-toggle");
-    
+  
     if (en.style.display === "none") {
       en.style.display = "block";
       zh.style.display = "none";
-      btn.innerHTML = "🌐 切换至中文 (ZH)";
+      btn.innerHTML = "中";  // 切换回英文内容时，按钮显示“中”
     } else {
       en.style.display = "none";
       zh.style.display = "block";
-      btn.innerHTML = "🌐 Switch to English (EN)";
+      btn.innerHTML = "EN";  // 切换到中文内容时，按钮显示“EN”
     }
   }
 </script>
