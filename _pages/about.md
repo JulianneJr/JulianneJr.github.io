@@ -28,7 +28,7 @@ redirect_from:
 </style>
 
 <div style="text-align: right; margin-bottom: 20px;">
-  <button id="lang-toggle" class="lang-btn" onclick="toggleLanguage()">
+  <button id="lang-toggle" class="lang-btn" onclick="var e=document.getElementById('en-content'),z=document.getElementById('zh-content');if(e.style.display!=='none'){e.style.display='none';z.style.display='block';this.innerHTML='EN';}else{e.style.display='block';z.style.display='none';this.innerHTML='中';}">
     中
   </button>
 </div>
@@ -457,21 +457,4 @@ I am passionately focused on pushing the frontiers of Artificial Intelligence. I
 
 </div>
 
-<script>
-  function toggleLanguage() {
-    var en = document.getElementById("en-content");
-    var zh = document.getElementById("zh-content");
-    var btn = document.getElementById("lang-toggle");
-    
-    // 使用更稳健的逻辑：只要英文区没被隐藏，点击就切换到中文
-    if (en.style.display !== "none") {
-      en.style.display = "none";
-      zh.style.display = "block";
-      btn.innerHTML = "EN";  // 此时显示中文，按钮提示切换到 EN
-    } else {
-      en.style.display = "block";
-      zh.style.display = "none";
-      btn.innerHTML = "中";   // 此时显示英文，按钮提示切换到 中文
-    }
-  }
-</script>
+
